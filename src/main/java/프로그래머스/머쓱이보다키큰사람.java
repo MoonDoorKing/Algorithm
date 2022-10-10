@@ -9,4 +9,12 @@ public class 머쓱이보다키큰사람 {
         }
         return answer;
     }
+
+    public static void main(String[] args) {
+        int[] array = {100,150,140,124,190};
+        int height = 160;
+        머쓱이보다키큰사람 a = new 머쓱이보다키큰사람();
+
+        System.out.println(a.solution(array,height));
+    }
 }
