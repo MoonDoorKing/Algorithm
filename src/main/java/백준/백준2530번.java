@@ -9,9 +9,7 @@ public class 백준2530번 {
     public static void main(String[] args) throws IOException {
           BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
-          String s = bf.readLine();
-
-          StringTokenizer st = new StringTokenizer(s);
+          StringTokenizer st = new StringTokenizer(bf.readLine());
 
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
