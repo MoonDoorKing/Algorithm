@@ -11,6 +11,7 @@ public class 백준17356번 {
 
         double result = 1 / (1 + Math.pow(10,(b-a) / 400.0));
         // 나눌때 400을 나누는 것과 400.0 을 나누는게 결과가 달랐다.
+        // 그 이유는 b-a / 400 은 정수형 연산이라 0 이 된다 ..
 
         System.out.println(result);
     }
