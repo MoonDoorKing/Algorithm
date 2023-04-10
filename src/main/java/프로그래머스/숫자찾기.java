@@ -9,7 +9,7 @@ public class 숫자찾기 {
 
             answer = a.indexOf(b);
 
-            return answer < 0 ? -1 : answer + 1;
+            return answer > 0 ? answer + 1 : -1;
         }
     }
 }
